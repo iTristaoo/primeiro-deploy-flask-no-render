@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSaber - Chatbot Educacional para Consulta de Abastecimento Hídrico</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">Aqua<span>Saber</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h1>AquaSaber</h1>
+                <p>Chatbot Educacional para Consulta de Abastecimento Hídrico</p>
+            </div>
+        </section>
+
+        <section class="chat-section">
+            <div class="container">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <i class="fas fa-robot"></i>
+                        <h2>AquaSaber</h2>
+                    </div>
+                    <div class="chat-messages">
+                        <!-- Mensagens serão adicionadas via JavaScript -->
+                    </div>
+                    <form class="chat-input chat-form">
+                        <input type="text" placeholder="Digite sua mensagem..." autocomplete="off">
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i> Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="features">
+            <div class="container">
+                <h2>Sobre o AquaSaber</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3>Consulta de Abastecimento</h3>
+                        <p>Obtenha informações atualizadas sobre o cronograma de abastecimento de água na sua rua.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Abordagem Educacional</h3>
+                        <p>Além de fornecer informações, o AquaSaber explica como realiza as consultas, capacitando você a buscar informações de forma autônoma.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Dados Atualizados</h3>
+                        <p>Base de dados constantemente atualizada para garantir informações precisas sobre o abastecimento hídrico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="features">
+            <div class="container">
+                <h2>Recursos</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Consulta por Rua</h3>
+                        <p>Pesquise informações específicas sobre o abastecimento de água na sua rua ou bairro.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Horários de Abastecimento</h3>
+                        <p>Acesse os horários previstos para normalização do abastecimento após interrupções.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h3>Status em Tempo Real</h3>
+                        <p>Verifique o status atual do abastecimento em diferentes regiões.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Para mais informações sobre o AquaSaber, entre em contato conosco.</p>
+                <!-- Formulário de contato seria adicionado aqui --> Gmail: Ronaldlopes246@gmail.com
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">AquaSaber</div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#recursos">Recursos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 AquaSaber. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
